@@ -1,0 +1,26 @@
+.carousel-item>img{
+   height: 600px;
+}
+
+.heading>h1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.card-container-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card-container-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.heading-test>h1{
+    text-align: center;
+    margin-top: 50px;
+}
