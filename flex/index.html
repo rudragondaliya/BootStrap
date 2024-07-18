@@ -112,17 +112,43 @@
 
 <!-- off canvas -->
 
-<a href="offcanvas" class="btn btn-primary" data-bs-target="#offcanvas" data-bs-toggle="offcanvas" style="margin:100px;">sidebar</a>
+<!-- <a href="#offcanvas" class="btn btn-primary" data-bs-target="#offcanvas" data-bs-toggle="offcanvas" style="margin:100px;">sidebar</a>
 
 <div class="offcanvas offcanvas-start" id="offcanvas">
-  <header>
+  <header class="offcanvas-header">
     <h5 class="offcanvas-title mt-2">offcanvas</h5>
-    <button class="btn-close"  data-bs-dismiss="offcanvas" style="margin-left:360px;"></button>
+    <button class="btn-close"  data-bs-dismiss="offcanvas"></button>
   </header>
   <div class="offcanvas-body">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ad dolores est eum, molestiae provident natus eius repudiandae explicabo repellendus ipsum. Obcaecati, vero ullam voluptas quam distinctio numquam in pariatur.
   </div>
+</div> -->
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="modal" data-bs-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title"> modal </div>
+         <button class="btn-close" data-bs-dismiss="modal"> </button>
+      </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, qui, ut possimus beatae animi dolorum suscipit, sint hic saepe atque excepturi natus laudantium laboriosam incidunt quae tenetur ad? Iusto, alias!
+          Repellendus officiis veritatis suscipit voluptates. Distinctio deserunt velit corporis dignissimos reprehenderit voluptatibus! Doloribus repellendus ut sunt. Illo quaerat quo consequuntur recusandae, odio, </p>
+        </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button class="btn btn-primary">save changes</button>
+      </div>
+    
+    </div>
+  </div>
 </div>
+
+
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">modal</button>
 
 
  
